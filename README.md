@@ -1,6 +1,6 @@
 # ⚡ Programmable Battery Charger Firmware - PY32F002A
 
-**Production-grade battery charger firmware** with state machine control, thermal protection, dynamic SOC estimation, and soft-start charging. Supports 48–72V battery packs (Li-Ion, LiFePO₄, and compatible chemistries) within configurable voltage/current ranges.
+**battery charger firmware** with state machine control, thermal protection, dynamic SOC estimation, and soft-start charging. Supports 48–72V battery packs (Li-Ion, LiFePO₄, and compatible chemistries) within configurable voltage/current ranges.
 
 **Platform:** PY32F002AF15P6 (32-bit ARM Cortex-M0+) | **Power Stage:** PWM control via TIM1 CH4 (TL494 feedback external)  
 **Voltage Range:** 54–72V (user-configurable) | **Current Range:** 6.2A-10.2A (software-limited)  
