@@ -1,5 +1,5 @@
 /* ============================================================================
- * MERGED APPLICATION SOURCE CODE - FINAL
+ * MERGED APPLICATION SOURCE CODE 
  * ============================================================================ */
 #include "main.h"
 #include "soc_display_exact_table.c"
