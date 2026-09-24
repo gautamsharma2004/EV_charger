@@ -18,7 +18,7 @@
 volatile ChargerState_t gState = STATE_INIT;
 volatile ChargeMode_t gChargeMode = MODE_NORMAL;
 volatile uint8_t gOutputActive = 0;
-
+uint32_t socEvalTimer = 0;
 float TARGET_VOLTAGE = 67.20f;
 float TARGET_CURRENT = 6.2f;  
 
