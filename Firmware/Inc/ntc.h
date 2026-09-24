@@ -50,5 +50,21 @@
 
 /* Reference Temperature */
 #define NTC_T25_KELVIN             (298.15f)
+/* ADC Channels */
+#define NTC_MOSFET_CHANNEL         ADC_CHANNEL_MOSFET
+#define NTC_TRANSFORMER_CHANNEL    ADC_CHANNEL_TRANSFORMER
 
+/* Function Prototypes */
+void NTC_Init(void);
+uint16_t NTC_ReadMosfetADC(void);
+uint16_t NTC_ReadTransformerADC(void);
+float NTC_ReadMosfetVoltage(void);
+float NTC_ReadTransformerVoltage(void);
+float NTC_ADCToResistance(uint16_t adc);
+float NTC_GetTemperatureFromADC(uint16_t adc);
+float NTC_GetMosfetResistance(void);
+float NTC_GetTransformerResistance(void);
+float NTC_GetMosfetTemperature(void);
+float NTC_GetTransformerTemperature(void);
+float NTC_GetMaximumTemperature(void);
 #endif
